@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  min-height: 100vh;
+  color: var(--very-dark-cyan);
+  font-size: var(--font-size);
+  margin: 0;
+  font-family: var(--font-heading);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.wrapper {
+  padding: 0 1em;
+}

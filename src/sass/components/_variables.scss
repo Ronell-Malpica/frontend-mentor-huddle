@@ -1,0 +1,18 @@
+:root {
+  // #colors
+  // PRIMARY
+  --pink: hsl(322, 100%, 66%);
+  // NEUTRAL
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  // typography
+  --font-size: 18px;
+
+  // HEADINGS // 600
+  --font-heading: "Poppins", sans-serif;
+
+  // BODY call-to-actions // 400 , 700
+  --font-call-to-action: "Open Sans", sans-serif;
+  --color-font: rgb(77, 75, 75);
+}

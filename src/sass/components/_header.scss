@@ -1,0 +1,51 @@
+.hero {
+  background-color: var(--very-pale-cyan, red);
+  color: var(--very-dark-cyan);
+  font-family: var(--font-call-to-action);
+  background-image: url(./../img/bg-hero-mobile.svg);
+  background-position: top right -4em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  margin-bottom: 4em;
+}
+.wrapper-header {
+  padding: 0 1em;
+  @include breakpoint-up(large) {
+    padding: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.l-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+}
+
+.logo {
+  height: 1.2em;
+  @include breakpoint-up(large) {
+    height: 1.7em;
+  }
+}
+.btn-white {
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--very-dark-cyan);
+  padding: 0.2em 1.2em;
+  border-radius: 1em;
+  font-family: var(--font-call-to-action);
+  box-shadow: 0px 1px 5px 1px rgb(197, 197, 197);
+  &:focus {
+    outline: none;
+  }
+  @include breakpoint-up(large) {
+    font-size: 0.9em;
+  }
+}
